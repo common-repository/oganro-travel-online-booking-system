@@ -1,0 +1,22 @@
+.tab-content {
+    padding : 5px 15px;
+    border: 1px solid #337ab7;
+}
+
+/* remove border radius for the tab */
+
+.nav-pills > li > a,
+.form-control,
+.btn {
+    border-radius: 0;
+}
+
+
+
+.og-travel-admin-wrap{
+    padding:2%;
+}
+
+.success-message {
+    padding:2%;
+}

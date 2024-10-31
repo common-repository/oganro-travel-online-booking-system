@@ -1,0 +1,233 @@
+/**
+* Oganro Travel Widget Styles
+*/
+.widget-box {
+    margin-bottom: 2%;
+}
+
+.widget-box .nav-pills {
+    padding: 0;
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+}
+
+.widget-box .nav-pills > li {
+    margin-right: 10px;
+    min-width: 160px;
+}
+
+.widget-box .nav-pills > li > a {
+    border-radius: 0;
+    font-weight: bold;
+    margin: 0 5px 0px 0px;
+    opacity: 0.8;
+    text-align: center;
+    font-weight: lighter !important;
+}
+
+.widget-box .tab-content .active {
+    padding: 2%;
+    display: table;
+    width: 100%;
+}
+
+.widget-box .form-control,
+.widget-box .btn {
+    border-radius: 0px;
+    margin-bottom: 0px !important;
+}
+
+.widget-box .btn,
+.widget-box .btn:focus,
+.widget-box .btn:active {
+    border: 0px none;
+    box-shadow: none;
+}
+
+.widget-box .input-group > .dropdown {
+    padding: 0;
+    /* width: 50%; */
+    float: left;
+    margin-right: 5px;
+}
+
+.widget-box .searchbox_roomresult_pop button {
+    border: 1px solid #ccc;
+}
+
+.widget-box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.widget-box .input-group,
+.widget-box .input-group > .dropdown > button {
+    width: 100% !important;
+}
+
+.widget-box .modal .modal-dialog label {
+    color: #212121;
+}
+
+.wi-block {
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.widget-box .btn-submit {
+    width: 100%;
+}
+
+.widget-box .form-group {
+    margin-bottom: 5px;
+}
+
+.widget-box label.error {
+    color: #f94b4b !important;
+    font-weight: 100;
+    font-size: 1.25rem;
+    margin: 5px 0px;
+    display: block;
+    padding: 1px 5px;
+}
+
+.widget-box .modal .form-group {
+    height: auto;
+}
+
+.ui-front {
+    z-index: 1500 !important;
+}
+
+/* HOTEL BOX STYLES */
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-autocomplete, .ui-autocomplete:hover,
+.ui-menu-item, .ui-menu-item:hover,
+.ui-menu-item a, .ui-menu-item a:hover,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-active,
+.ui-menu .ui-menu-item a {
+    background: #ffffff none no-repeat;
+    padding: 0;
+    margin: 0;
+    display: block;
+    border-collapse: collapse;
+
+}
+
+.ui-autocomplete {
+    width:25%;
+}
+
+.ui-menu-item a.ui-state-active, .ui-menu-item a.ui-state-focus, .ui-menu-item a:hover {
+    background: #ccc !important;
+}
+
+.ui-corner-all {
+    border-radius: 0;
+}
+
+.ui-menu-item a.ui-state-active, .ui-menu-item a.ui-state-focus, .ui-menu-item a:hover {
+    background: #ccc !important;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    border: 0px none !important;
+    background: #dadada !important;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-autocomplete, .ui-autocomplete:hover,
+.ui-menu-item, .ui-menu-item:hover,
+.ui-menu-item a, .ui-menu-item a:hover,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-active,
+.ui-menu .ui-menu-item a { /* background: #ffffff none no-repeat; */
+    padding: 0;
+    margin: 0;
+    display: block;
+    border: 0;
+    border-collapse: collapse;
+    font-family: "Lato", sans-serif;
+
+}
+
+.ui-menu-item a.ui-state-active, .ui-menu-item a.ui-state-focus, .ui-menu-item a:hover {
+    background: #ccc !important;
+}
+
+.ui-corner-all {
+    border-radius: 0;
+}
+
+#passengerDrpdwnUl > li > .minus, #passengerDrpdwnUl > li > .plus {
+    display: inline-block;
+    width: 40%;
+    text-align: center
+}
+
+#passengerDrpdwnUl > li > input {
+    background: #38AAE2;
+    color: white !important;
+    padding: 2px;
+    width: 20%;
+    text-align: center;
+}
+
+#passengerDrpdwnUl > li > label {
+    display: block;
+    width: 100%;
+    padding: 5px 15px;
+    color: #777;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
+    font-size: small;
+}
+
+.widget-box .full-width,
+.widget-box .full-width button{
+    width: 100% !important;
+}
+
+.widget-box .input-group .date {
+    width: 45%;
+}
+
+@media (max-width: 768px) {
+    .widget-box .nav-pills > li {
+        margin-right: 5px;
+        min-width: 50px !important;
+    }
+    .widget-box {
+        margin-top:0px !important;
+    }
+
+    .widget-box .input-group .date {
+        width: 45%;
+    }
+}
